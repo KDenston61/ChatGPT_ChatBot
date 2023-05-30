@@ -1,0 +1,81 @@
+body {
+  background-color: #f8f9fa;
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  color: #007bff;
+  text-align: center;
+}
+
+.chat {
+  background-color: #fff;
+  border-radius: 5px;
+  padding: 20px;
+  margin-top: 20px;
+}
+
+#messages {
+  margin-bottom: 10px;
+}
+
+form {
+  margin-top: 10px;
+}
+
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  resize: none;
+  overflow: hidden;
+  box-sizing: border-box; /* Ensure padding and border are included in width */
+}
+
+button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0062cc;
+}
+
+/* Dark Mode Styles */
+.dark-mode {
+  background-color: #222;
+  color: #fff;
+}
+
+.dark-mode h1 {
+  color: #00bfff;
+}
+
+.dark-mode .chat {
+  background-color: #333;
+}
+
+.dark-mode #messages {
+  color: #fff;
+}
+
+.dark-mode textarea,
+.dark-mode button {
+  background-color: #00bfff;
+  color: #000;
+}
+
+.dark-mode button:hover {
+  background-color: #00a0e6;
+}
